@@ -1,2 +1,2 @@
 # shell
-learn to make a shell
+# Learn to make a shell.
