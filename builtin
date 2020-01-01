@@ -1,0 +1,5 @@
+quit: 退出shell
+exit: 退出shell
+jobs: 列出所有后台作业
+bg job: 重启job并在后台运行它,job为pid或%jid。(如bg %893,bg 324)
+fg job: 重启job并在前台运行它,job为pid或%jid。(如fg %893,fg 324)

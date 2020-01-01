@@ -1,7 +1,7 @@
 
 /* $begin wrapped.h */
-#ifndef __CSAPP_H__
-#define __CSAPP_H__
+#ifndef __WRAPPED_H__
+#define __WRAPPED_H__
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -193,5 +193,5 @@ int Open_clientfd(char *hostname, char *port);
 int Open_listenfd(char *port);
 
 
-#endif /* __CSAPP_H__ */
+#endif /* __WRAPPED_H__ */
 /* $end wrapped.h */
