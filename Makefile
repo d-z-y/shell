@@ -1,6 +1,6 @@
 #Makefile
-CFLAGS = -pthread -m64
-objects = wrapped.c myshell.c
+CFLAGS = -pthread -m64 -Wall
+objects = main.c myshell.c job.c wrapped.c
 all:
 	@echo compiling $(objects)...
 	gcc $(CFLAGS) $(objects) -o myshell
